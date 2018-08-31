@@ -1,0 +1,14 @@
+ADT - Abstract Data Type
+POD - Plain Old Data
+
+Encapsulation
+  Deals with information hiding and the grouping of things
+
+
+coupling - loose coupling is the goal
+cohesion - high cohesion
+
+
+"has a" relationship
+Aggregation
+Composition
