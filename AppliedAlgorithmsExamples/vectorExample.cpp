@@ -10,7 +10,9 @@ using namespace std;
 
 struct Node
 {
-
+  char instruction;
+  int stepCount;
+  bool visited;
 }
 
 int main ()
