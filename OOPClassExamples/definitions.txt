@@ -15,3 +15,13 @@ cohesion - high cohesion
 "has a" relationship
 Aggregation
 Composition
+
+Operator Overloading:
+    
+
+5 Types of Constructors:
+Default Constructor
+Copy Constructor
+Move Constructor
+Conversion Constructor
+No Name Constructor
