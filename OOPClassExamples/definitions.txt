@@ -1,8 +1,11 @@
 ADT - Abstract Data Type
+    data, methods
+
 POD - Plain Old Data
+    struct
 
 Encapsulation
-  Deals with information hiding and the grouping of things
+    Deals with information hiding and the grouping of things
 
 
 coupling - loose coupling is the goal
