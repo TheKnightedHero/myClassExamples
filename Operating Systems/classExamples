@@ -40,9 +40,16 @@ For a), assume that the system is multiprogrammed, and that each job gets its fa
 For b) through d) assume that only one job at a time runs, until it finishes.
 All jobs are completely CPU bound
 
-a)
-A| 
-B|
-C|
-D|
-E|
+a) at 10 mins,         turnaround time       avg: 110/5 = 22mins
+A| 2                      A| 30
+B| 2                      B| 24
+C| 2                      C| 10
+D| 2                      D| 18
+E| 2                      E| 28
+
+b)
+A|                        A|
+B|                        B|
+C|                        C|
+D|                        D|
+E|                        E|
