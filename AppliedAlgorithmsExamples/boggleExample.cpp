@@ -5,12 +5,26 @@ using namespace std;
 
 /*
   Vectors are passed by value by default
-
+  means when we change things, we are changing a copy
 */
 
 
 bool isValid(vector<vector<char>> grid,string targetWord, int rowPosition, int colPosition )
 {
+  if(targetWord.size() == 1 && grid[rowPostion][colPosition] == targetWord[0])
+  {
+    return true;
+  }
+  if(grid[rowPosition][colPosition] != targetWord[0])
+  {
+    return false;
+  }
+  //got here? then i know that the targetWord.size() > 1 && that grid[rowPosition][colPosition] == targetWord[0]
+
+  //need to mark the current row and col (can change it to anything but a letter. (change to hashtag))
+  grid[rowPosition][colPosition] = '#';
+
+  
 
 }
 
