@@ -24,7 +24,22 @@ bool isValid(vector<vector<char>> grid,string targetWord, int rowPosition, int c
   //need to mark the current row and col (can change it to anything but a letter. (change to hashtag))
   grid[rowPosition][colPosition] = '#';
 
-  
+  string newTarget = targetWord, substr(1,targetWord.size());   //might be targetWord.size() - 1 or written substr(1)
+
+  for(rowDelta = -1; rowDelta <= +1; rowDelta++)
+  {
+    for(int colDelta = -1; colDelta <= +1; colDelta++)
+    {
+      if(isValid(grid, newTarget, rowPostion + rowDelta; colPosition + colDelta))
+      {
+        return true;
+      }
+    }
+  }
+
+
+
+
 
 }
 
