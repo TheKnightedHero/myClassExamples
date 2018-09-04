@@ -36,6 +36,11 @@ bool isValid(vector<vector<char>> grid,string targetWord, int rowPosition, int c
       }
     }
   }
+  return false;
+
+  /*
+    will need the nested for loop with the delta again in future projects
+  */
 
 
 
