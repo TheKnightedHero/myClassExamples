@@ -1,0 +1,50 @@
+#include <iostream>
+#include <vector>
+#include <string>
+using namespace std;
+
+/*
+  Vectors are passed by value by default
+
+*/
+
+
+bool isValid(vector<vector<char>> grid,string targetWord, int rowPosition, int colPosition )
+{
+
+}
+
+void main()
+{
+  //intialize files
+  //make sure size is there for grid
+
+  //create a 6X6 grid of hashtags
+  vector < vector <char> > grid(6, vector<char>(6, '#'));
+  //read in grid using a nested for loop to read the 4 by 4 chars
+
+  //read in a word (is it valid?)
+
+  //while word isn't a '*'
+  {
+    bool found = false;
+    for(int row = 1; row <= 4; row++)
+    {
+      for(int col = 1; col <=4; col++)
+      {
+        if( isValid(grid, word,initalRow, initialCol))
+        {
+          //print the word valid
+        }
+      }
+    }
+    if(!found)
+    {
+      //print Not Valid
+    }
+
+
+  }
+
+
+}
