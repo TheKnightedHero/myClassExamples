@@ -17,7 +17,7 @@ Aggregation
 Composition
 
 Operator Overloading:
-    
+
 
 5 Types of Constructors:
 Default Constructor
@@ -25,3 +25,6 @@ Copy Constructor
 Move Constructor
 Conversion Constructor
 No Name Constructor
+
+(look at lecture on 9/7/18 for answer)
+The difference between functions and methods is that
