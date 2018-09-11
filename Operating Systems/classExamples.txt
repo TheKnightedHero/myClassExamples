@@ -1,0 +1,58 @@
+(#43) Measurements of a certain system have shown that the average process runs
+for a time T before blocking on I/O.  A process switch requires a time, S,
+which is effectively wasted (overhead).
+For round-robin scheduling with quantum, Q,
+give a formula for the CPU efficiency for each of the following:
+a)      Q = ∞
+
+b)      Q > T
+
+c)      S < Q < T
+
+d)      Q = S
+
+e)      Q nearly 0
+
+
+
+a) T/(T + S(T/Q)) = 1
+b)
+c)
+d)
+e) = nearly 0
+
+
+7)(#45) Five batch jobs A through E, arrive at a computer center at almost the same time.
+They have estimated running times of 10, 6, 2, 4, and 8 minutes.  Their (externally determined)
+priorities are 3, 5, 2, 1, and 4, respectively, with 5 being the highest priority.
+ For each of the following scheduling algorithms, determine the mean process turnaround time.
+ Ignore process switching overhead.
+a)      Round robin.
+
+b)      Priority scheduling.
+
+c)      First-come, first-served (run in order 10, 6, 2, 4, 8).
+
+d)      Shortest job first.
+
+
+
+For a), assume that the system is multiprogrammed, and that each job gets its fair share of the CPU.
+For b) through d) assume that only one job at a time runs, until it finishes.
+All jobs are completely CPU bound
+
+a) at 10 mins,         turnaround time       avg: 110/5 = 22mins
+A| 2                      A| 30
+B| 2                      B| 24
+C| 2                      C| 10
+D| 2                      D| 18
+E| 2                      E| 28
+
+ b)avg = 20 minutes
+A|                        A|
+B|                        B|
+C|                        C|
+D|                        D|
+E|                        E|
+
+c)
