@@ -17,3 +17,7 @@ partial means it was defined from two different "classes"
 
 what you see is what you get - Wysiwyg = "wizzywig"
   They are not very good at dynamic sizing
+
+
+
+  
