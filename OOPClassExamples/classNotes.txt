@@ -4,3 +4,10 @@ dynamic libraries
 making a .dll file
 
 watch lecture on 9/12/18
+
+What is an object?
+
+
+
+in C#, data type called form. When you create a windows form application, it creates an object of the type.
+There is a data type called form, and in the project there is a created data type called form 1 that inherits from the form.
