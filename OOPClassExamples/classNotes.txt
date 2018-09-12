@@ -1,2 +1,6 @@
 libraries
 dynamic libraries
+
+making a .dll file
+
+watch lecture on 9/12/18
