@@ -11,3 +11,9 @@ What is an object?
 
 in C#, data type called form. When you create a windows form application, it creates an object of the type.
 There is a data type called form, and in the project there is a created data type called form 1 that inherits from the form.
+
+partial means it was defined from two different "classes"
+
+
+what you see is what you get - Wysiwyg = "wizzywig"
+  They are not very good at dynamic sizing
