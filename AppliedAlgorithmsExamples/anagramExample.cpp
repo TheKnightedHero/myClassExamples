@@ -4,6 +4,7 @@
 #include <fstream>
 #include <string>
 #include <vector>
+#include <multiset>
 using namespace std;
 
 
@@ -90,7 +91,26 @@ void main()
 }
 
 /*
-Alternate code for void main()
+Alternative solution
+
+
+
+void buildMultiset(multiset<char> &letters, string s)
+{
+  for(char c : s)    //same as for each
+  {
+    if(isalpha(c))
+    {
+      letters.insert(tolower(C));   //Big O(log(current size of letters))
+
+      //O(lg(1)) + O(lg(2)) + O(lg(3)) .... O(lg(# of letters)) = nlg(n)
+    }
+  }
+}
+
+
+
+void main()
 {
   ifstream fin("anagrams.in");
   if(fin.is_open())
@@ -102,7 +122,24 @@ Alternate code for void main()
     getline(fin, line2);
     while(!(line == "<end>" && line2 == "<end"))
     {
-    
+      multiset<char> line1Letters;
+      multiset<char> line2Letters;
+
+      buildMultiset(line1Letters, line1);
+      buildMultiset(line2Letters, line2);
+
+
+
+    if(line1Letters == line2Letters)
+    {
+      fout << "YES";
+    }
+    else
+    {
+      fout << "NO"
+    }
+
+
     fout.close();
     fin.close();
   }
@@ -110,6 +147,8 @@ Alternate code for void main()
   {
     cout << "unable to open";
   }
-
 }
+
+
+
 */
