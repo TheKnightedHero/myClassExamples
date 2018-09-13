@@ -41,8 +41,8 @@ value[]
 9
 
 
-parent[]
--1            corresponds with value array
+parent[]        corresponds with value array
+-1            no parent
 0
 0
 0
