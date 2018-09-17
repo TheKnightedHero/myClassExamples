@@ -1,0 +1,26 @@
+1. All the trajectories in Fig. 6-8 (below) are horizontal or vertical.
+      Can you envision any circumstances in which diagonal trajectories were also possible?
+
+2. Can the resource trajectory scheme of Fig. 6-8 (above) also be used to illustrate the problem of deadlocks with three
+processes and three resources?  If so, how can this be done?  If not, why not?
+
+
+3. Can a system be in a state that is neither deadlocked nor safe?  If so, give an example.
+
+
+
+4. A system as two processes and three identical resources.  Each process needs a maximum of two resources.  Is deadlock possible?  Explain your answer.
+5. Consider the previous problem again, but now with p processes each needing a maximum of m resources and a total of r resources are available.  What conditions must hold to make the system deadlock free?
+
+6. Suppose that process A in Fig. 6-12 (below) requests the last tape drive.  Does this action lead to a deadlock?
+7. A computer has six tape drives, with n processes competing for them.  Each process may need two drives.  For which values of n is the system deadlock free?
+
+8. A system has four processes and five allocatable resources.  The current allocation and maximum needs are as follows:
+    What is the smallest value for x for which this is a safe state?
+
+9. Two processes, A and B, each need three records, 1, 2, and 3, in a database.  
+    If A asks for them in the order 1, 2, 3, and B asks for them in the same order, deadlock is not possible.
+    However, if B asks for them in the order 3, 2, 1, then deadlock is possible.
+    With three resources, there are 3! or 6 possible combinations each process can request the resources.
+    What fraction of all the combinations is guaranteed to be deadlock free?
+10. Explain the difference between deadlock, livelock and starvation
