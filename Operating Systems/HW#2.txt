@@ -34,3 +34,4 @@ processes and three resources?  If so, how can this be done?  If not, why not?
 10. Explain the difference between deadlock, livelock and starvation
 
 Starvation is waiting for a resource that is unavailable or not working and it is waiting forever
+livelock is being put into busy wait, rather than being put into sleep mode
