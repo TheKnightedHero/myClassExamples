@@ -1,0 +1,35 @@
+1. The file:  /usr/share/dict/words  is a dictionary on TAZ that contains many of the words in the English language
+(as well as some proper names, acronyms, and special “words”)  - one word per line.
+In fact, this file contains almost 480,000 “words”.  What is the 172,425th  word listed in this file?
+
+
+
+2.   Using the man utility, find the descriptions for the following words (just write a line or two):
+
+      a. apropos
+
+      b. mkfifo
+
+      c. yum
+
+      d. bison
+
+      e. yes
+
+      f. rev
+
+      g. factor
+
+3. Using a web search engine, look up the phrase “UNIX EPOCH”. When did the UNIX epoch begin?
+   When will it end (precise to the second)?
+
+
+4.   What is your birth date? On what day of the week will your birthday fall in the year 2052?
+
+
+5. Why does UNIX distinguish between the standard output and the standard error device,
+  when both default to the “terminal”?
+
+
+6. If a UNIX file has protection mode 751 (octal), what access privileges do the owner,
+    the owner’s group, and everyone else have?
