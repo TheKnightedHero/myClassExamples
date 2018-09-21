@@ -10,15 +10,20 @@ In fact, this file contains almost 480,000 “words”.  What is the 172,425th  
 
       b. mkfifo - create named pipes (FIFOs) with the given NAMEs
 
-      c. yum - 
+      c. yum -  /usr/bin/yum to /usr/bin/dnf redirecting executable
 
-      d. bison
+           dnf - the  next  upcoming  major version of Yum, a package manager for RPM-based Linux distributions. It roughly maintains CLI compatibility with Yum and
+                  defines a strict API for extensions and plugins.
 
-      e. yes
 
-      f. rev
+      d. bison - no man entry for bison
 
-      g. factor
+      e. yes -  Repeatedly output a line with all specified STRING(s), or 'y'.
+
+      f. rev - The  rev  utility copies the specified files to standard output, reversing the order of characters in every line.
+                If no files are specified, standard input is read.
+
+      g. factor - Print the prime factors of each specified integer NUMBER.  If none are specified on the command line, read them from standard input.
 
 3. Using a web search engine, look up the phrase “UNIX EPOCH”. When did the UNIX epoch begin?
    When will it end (precise to the second)?
