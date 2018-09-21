@@ -1,3 +1,7 @@
+Caleb Herring
+HW#3
+
+
 1. The file:  /usr/share/dict/words  is a dictionary on TAZ that contains many of the words in the English language
 (as well as some proper names, acronyms, and special “words”)  - one word per line.
 In fact, this file contains almost 480,000 “words”.  What is the 172,425th  word listed in this file?
