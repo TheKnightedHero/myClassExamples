@@ -6,11 +6,11 @@ In fact, this file contains almost 480,000 “words”.  What is the 172,425th  
 
 2.   Using the man utility, find the descriptions for the following words (just write a line or two):
 
-      a. apropos
+      a. apropos - searches for instances of keyword. The database searched by apropos is updated by the mandb program.
 
-      b. mkfifo
+      b. mkfifo - create named pipes (FIFOs) with the given NAMEs
 
-      c. yum
+      c. yum - 
 
       d. bison
 
