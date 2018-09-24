@@ -1,3 +1,4 @@
 Must always start with #!/usr/bin/perl -w
   Must be at the top of the document
 Make sure to review the handout notes
+Watch lecture on 9/24/18
