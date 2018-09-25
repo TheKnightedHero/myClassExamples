@@ -1,0 +1,3 @@
+watch lecture on 9/25
+view BFS Skeleton handout
+see also the maze handout solution
