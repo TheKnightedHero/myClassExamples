@@ -6,8 +6,8 @@ HW #2 Chapter 6
 1. All the trajectories in Fig. 6-8 (below) are horizontal or vertical.
    Can you envision any circumstances in which diagonal trajectories were also possible?
 
-      Answer: If there were two or more processors, two ro more processes could run at the same time.
-	  
+      Answer: If there were two or more processors, two or more processes could run at the same time.
+
 
 2. Can the resource trajectory scheme of Fig. 6-8 (above) also be used to illustrate the problem of deadlocks with three
 processes and three resources?  If so, how can this be done?  If not, why not?
@@ -17,7 +17,7 @@ processes and three resources?  If so, how can this be done?  If not, why not?
 
 3. Can a system be in a state that is neither deadlocked nor safe?  If so, give an example.
 
-	Answer: Yes, however the unsafe state can lead to a deadlock. an example of this would be 
+	Answer: Yes, however the unsafe state can lead to a deadlock. an example of this would be
 
 
 
@@ -29,9 +29,13 @@ processes and three resources?  If so, how can this be done?  If not, why not?
 
 5. Consider the previous problem again, but now with p processes each needing a maximum of m resources and a total of r resources are available.  What conditions must hold to make the system deadlock free?
 
-	Answer: If a process has m resources, then it can finish. As long as there is one resource leftover, a process can finish and release its resources, which will allow the other processes to finish.
-	
-	
+	Answer: If a process has m resources, then it can finish.
+  As long as there is one resource leftover, a process can finish and release its resources,
+  which will allow the other processes to finish.
+
+  r >= p(m-1) + 1
+
+
 6. Suppose that process A in Fig. 6-12 (below) requests the last tape drive.  Does this action lead to a deadlock?
 
 	Answer: No, Process D is still able to finish. Once its resources are released, the process A is allowed to finish. (or process E)
@@ -45,30 +49,31 @@ processes and three resources?  If so, how can this be done?  If not, why not?
 
 8. A system has four processes and five allocatable resources.  The current allocation and maximum needs are as follows:
     What is the smallest value for x for which this is a safe state?
-	
-	
+
+
 	Answer: The smallest value x can be is 2
-	
+
 
 9. Two processes, A and B, each need three records, 1, 2, and 3, in a database.
     If A asks for them in the order 1, 2, 3, and B asks for them in the same order, deadlock is not possible.
     However, if B asks for them in the order 3, 2, 1, then deadlock is possible.
     With three resources, there are 3! or 6 possible combinations each process can request the resources.
     What fraction of all the combinations is guaranteed to be deadlock free?
-	
+
 	acb - deadlock free
 	abc - deadlock free
 	bac - deadlock
 	bca - deadlock
 	cba - deadlock
 	cab - deadlock
-	
-	Answer: 1/3
-	
+
+    2/6
+  Answer: 1/3
+
 
 
 10. Explain the difference between deadlock, livelock and starvation
 
 Starvation - is waiting for a resource that is unavailable or not working and it is waiting forever
 livelock - is being put into busy wait, rather than being put into sleep mode
-Deadlock - When a process is blocked and waiting for an event only another process that is blocked 
+Deadlock - When a process is blocked and waiting for an event only another process that is blocked
