@@ -1,0 +1,5 @@
+Can have multilevel inheritance
+DSPL = Domain Specific Programming Language - a language a programmer creates for a project
+
+
+polygon - any number of points and connect dots
