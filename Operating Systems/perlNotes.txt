@@ -5,6 +5,6 @@ Watch lecture on 9/24/18
 
 
 
-lecture - 9/26/18
+lecture - 9/26/18    Make sure to watch this recording to do PERL project
 foreach $line (reverse(sort(@lines)))
   -
