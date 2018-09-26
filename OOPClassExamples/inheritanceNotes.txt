@@ -3,3 +3,16 @@ DSPL = Domain Specific Programming Language - a language a programmer creates fo
 
 
 polygon - any number of points and connect dots
+
+
+In inheritance, functions can be overridden (overwrite)
+
+we have a base class and a derived class
+
+base - derived
+parent - child
+super - sub
+
+
+The base class is what we started with  - parent class
+the derived class is what we expand with - child class
