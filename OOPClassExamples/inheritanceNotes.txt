@@ -16,3 +16,14 @@ super - sub
 
 The base class is what we started with  - parent class
 the derived class is what we expand with - child class
+
+chosen at run-time not compile time.
+The run time choice is called late binding, also known as dynamic binding
+function is called based on object type
+
+Early binding also known as static binding is the traditional way
+function is called based on pointer/reference type
+
+
+virtual - function is going to use late binding
+this behavior on when binding happens is referred to polymorphism
