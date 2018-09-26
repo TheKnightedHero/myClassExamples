@@ -6,6 +6,8 @@ HW#3
 (as well as some proper names, acronyms, and special “words”)  - one word per line.
 In fact, this file contains almost 480,000 “words”.  What is the 172,425th  word listed in this file?
 
+head -172425 /usr/share/dict/words | tail -1
+
 Answer: Harding
 
 2.   Using the man utility, find the descriptions for the following words (just write a line or two):
