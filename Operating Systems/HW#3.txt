@@ -34,17 +34,19 @@ Answer: Harding
 3. Using a web search engine, look up the phrase “UNIX EPOCH”. When did the UNIX epoch begin?
    When will it end (precise to the second)?
 
-   It began on Thursday, January 1st, 1970. It will end on January 19, 2038 03:14:07 GMT. The second past that, all computers that still use 32 bit Unix Time will overflow.
+   It began on Thursday, January 1st, 1970. It will end on January 19, 2038 03:14:07 GMT.
+   The second past that, all computers that still use 32 bit Unix Time will overflow.
 
 4. What is your birth date? On what day of the week will your birthday fall in the year 2052?
   09/10/1993
 
-  In 2052,my birthday will be on Tuesday.
+  In 2052, my birthday will be on Tuesday.
 
 5. Why does UNIX distinguish between the standard output and the standard error device,
   when both default to the “terminal”?
 
-  Answer: The idea is that the regular output will go to the output channel, while all the error warnings and error messages go to the error channel.
+  Answer: The idea is that the regular output will go to the output channel,
+  while all the error warnings and error messages go to the error channel.
 
 6. If a UNIX file has protection mode 751 (octal), what access privileges do the owner,
     the owner’s group, and everyone else have?
