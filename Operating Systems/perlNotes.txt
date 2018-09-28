@@ -18,4 +18,7 @@ command line arguments - arguments passed from the command lines
 
  system("g++ program.c++ -o program") || die "UNable to Compile";
   -
-to run in perl:  system("./executable <inputFile");
+to run in perl:  system("./executable");
+
+check to see if size out output file is 0, if 0, nothing changed.
+if(-s fileName == 0 && )
