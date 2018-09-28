@@ -10,5 +10,11 @@ foreach $line (reverse(sort(@lines)))
 
 lecture 9/28/18
 command line arguments - arguments passed from the command lines
+ we copy to the scratch directory to have a new copy to work with and not touch the originals
 
+ perldoc - useful/great resource
+
+ g++ - compiler for C++ for unix/linux
+
+ 
   -
