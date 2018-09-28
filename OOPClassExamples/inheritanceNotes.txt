@@ -38,5 +38,7 @@ Protected in the base class,
 
 Methods in a class should ALWAYS be virtual
 A method that is made virtual, remains virtual forever down the inheritance hierarchy
+You cannot make something not virtual after it has been made virtual
+
 virtual - Given a pointer or reference from an ancestor type, if you call a function,
 it will call it based off the object you have instead of the pointer or reference you have
