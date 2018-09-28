@@ -25,5 +25,13 @@ Early binding also known as static binding is the traditional way
 function is called based on pointer/reference type
 
 
-virtual - function is going to use late binding
+virtual - function is going to use late/dynamic binding
 this behavior on when binding happens is referred to polymorphism
+
+
+9/28/18 video
+A function call is a jump
+Static binding will decide at compile time where it is going to jump.
+dynamic binding the compiler doesn't know where to jump, it is dependent on the object This is decided at run time
+
+Protected in the base class,
