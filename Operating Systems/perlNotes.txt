@@ -7,4 +7,8 @@ Watch lecture on 9/24/18
 
 lecture - 9/26/18    Make sure to watch this recording to do PERL project
 foreach $line (reverse(sort(@lines)))
+
+lecture 9/28/18
+command line arguments - arguments passed from the command lines
+
   -
