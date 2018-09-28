@@ -16,5 +16,6 @@ command line arguments - arguments passed from the command lines
 
  g++ - compiler for C++ for unix/linux
 
- 
+ system("g++ program.c++ -o program") || die "UNable to Compile";
   -
+to run in perl:  system("./executable <inputFile");
