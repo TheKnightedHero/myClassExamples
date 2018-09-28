@@ -35,3 +35,7 @@ Static binding will decide at compile time where it is going to jump.
 dynamic binding the compiler doesn't know where to jump, it is dependent on the object This is decided at run time
 
 Protected in the base class,
+
+Methods in a class should ALWAYS be virtual
+A method that is made virtual, remains virtual forever down the inheritance hierarchy
+virtual - Given a pointer or reference from an ancestor type, if you call a function, it will call it based off the object you have
