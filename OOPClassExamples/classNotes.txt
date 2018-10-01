@@ -18,9 +18,11 @@ partial means it was defined from two different "classes"
 what you see is what you get - Wysiwyg = "wizzywig"
   They are not very good at dynamic sizing
 
+all functions(function names) are addresses
 
   virtual function table:
   With polymorphism, given a shape pointer to a circle, when draw is called,
   the circle's draw method is called, rather than the shape's draw method.
 
 Classes with one or more pure virtual methods are called Abstract classes
+virtual void sleep() = 0; is an example of a pure virtual method
