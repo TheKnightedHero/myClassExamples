@@ -23,4 +23,4 @@ what you see is what you get - Wysiwyg = "wizzywig"
   With polymorphism, given a shape pointer to a circle, when draw is called,
   the circle's draw method is called, rather than the shape's draw method.
 
-Classes with one or more pure virtual methods are called Abstract virtual classes
+Classes with one or more pure virtual methods are called Abstract classes
