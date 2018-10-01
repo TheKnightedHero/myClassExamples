@@ -26,3 +26,14 @@ all functions(function names) are addresses
 
 Classes with one or more pure virtual methods are called Abstract classes
 virtual void sleep() = 0; is an example of a pure virtual method
+
+
+all classes that have one or more virtual methods have a v-table
+Specifically called a virtual function table
+
+
+Animal will only have 1 v table for itself
+Lion will have its own V-table as well, despite inheriting from Animal
+
+If we did not override the eat class in Lion, then the eat method will point
+to the same location in memory as the Animal class' eat method
