@@ -19,5 +19,5 @@ what you see is what you get - Wysiwyg = "wizzywig"
   They are not very good at dynamic sizing
 
 
-
+  virtual function table:
   
