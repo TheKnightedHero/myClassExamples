@@ -1,0 +1,16 @@
+10/3/18
+Regular Expressions
+
+A regular expression is a pattern/template to be matched against a string (llama book pg. 76)
+
+Sample use:
+$ grep "include" *.cpp        #The string include is a regular expression
+$ grep "ab*c" myFile.txt      #Find all the lines that contain the letter 'a' followed by 0 or more b's followed by a 'c'
+
+while($line = <STDIN>)
+{
+  if($line =~ /ab*c/)       # ~ means does this line match the expression
+  {
+    print ""
+  }
+}
