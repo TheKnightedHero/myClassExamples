@@ -7,10 +7,16 @@ Sample use:
 $ grep "include" *.cpp        #The string include is a regular expression
 $ grep "ab*c" myFile.txt      #Find all the lines that contain the letter 'a' followed by 0 or more b's followed by a 'c'
 
-while($line = <STDIN>)
+while($line = <STDIN>)         # while not end of file
 {
+  chomp $line;
   if($line =~ /ab*c/)       # ~ means does this line match the expression
   {
-    print ""
+    print "MATCHES";
   }
+  else
+  {
+    print "DOES NOT MATCH";
+  }
+  
 }
