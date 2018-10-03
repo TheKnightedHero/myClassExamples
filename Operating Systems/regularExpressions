@@ -25,3 +25,10 @@ while($line = <STDIN>)         # while not end of file
 ^&  is called an anchor.
 we can use this by changing the expression /ab*c to /^ab*c$/   This means that
 the string we are looking for MUST start with a, have 0 or more b's, followed by a c and then an endline character
+
+supercalifragilisticexpialidocious
+
+
+
+for phone number example, phone format is: (321)794-1068
+ 
