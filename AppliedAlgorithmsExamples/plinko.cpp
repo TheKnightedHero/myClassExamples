@@ -9,6 +9,10 @@
 
 /*
   create a 2D array
+  fill with 0's
+  first number is number of rows.
+  numbers after is data that needs to be put in
+
 
 
 */
