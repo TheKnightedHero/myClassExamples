@@ -33,5 +33,32 @@ supercalifragilisticexpialidocious
 for phone number example, phone format is: (321)794-1068
 
 
+lecture: 
 HW Answer:
-1b)  ^\\+\++$ 
+1b)  ^\\+\++$
+
+hint for hard questions:
+^consonants(a|A)consonants(e|E)$
+
+define class of consonants:
+
+
+
+
+
+JAN FEB MAR APR MAY JUN JUL AUG SEP OCT NOV DEC
+
+Format dates so they look like the below format options:
+JAN 3,1992
+MAR 30, 2016
+APR 03, 2018
+
+(JAN|FEB|MAR|APR|MAY|JUN|JUL|AUG|SEP|OCT|NOV|DEC)
+
+how to get the days:
+(0?[1-9]|[]12]\d|3[01])
+
+how to get the year:
+(19|20)\d\d
+
+(JAN|FEB|MAR|APR|MAY|JUN|JUL|AUG|SEP|OCT|NOV|DEC) (0?[1-9]|[]12]\d|3[01]), (19|20)\d\d
