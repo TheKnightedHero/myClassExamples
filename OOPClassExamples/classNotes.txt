@@ -48,6 +48,8 @@ syntax for exception handling:
 keywords:
 try - try block. you try to execute code
 catch - catches the exception
+  -you can have as many catch blocks as you want, only one will catch the error
+  -catch(...) means catch anything that wasnt caught
 throw -
   -in C++ you can throw anything. in Java you can only throw type exception or those that inherit from type exception
   -C++also has an exception classes
@@ -63,3 +65,6 @@ throw exception("")
 catch(exception e)
 {
 }
+
+when you throw an exception, local variables defined will be destroyed (destructor will be called)
+dynamic memory allocated will NOT be deleted
