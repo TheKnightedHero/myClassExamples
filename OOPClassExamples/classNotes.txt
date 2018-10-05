@@ -39,3 +39,7 @@ If we did not override the eat class in Lion, then the eat method will point
 to the same location in memory as the Animal class' eat method
 
 Polymorphism adds overhead at runtime
+
+
+10/5/18
+DO NOT USE EXCEPTION HANDLING FOR FLOW CONTROL
