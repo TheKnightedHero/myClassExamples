@@ -43,3 +43,23 @@ Polymorphism adds overhead at runtime
 
 10/5/18
 DO NOT USE EXCEPTION HANDLING FOR FLOW CONTROL
+
+syntax for exception handling:
+keywords:
+try - try block. you try to execute code
+catch - catches the exception
+throw -
+  -in C++ you can throw anything. in Java you can only throw type exception or those that inherit from type exception
+  -C++also has an exception classes
+  -abort() gets called if you throw an exception and dont handle the exception
+
+wrap exception is try block
+then you catch it
+
+try
+{
+throw exception("")
+}
+catch(exception e)
+{
+}
