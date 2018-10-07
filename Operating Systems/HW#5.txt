@@ -14,7 +14,7 @@ Construct a regular expression that matches:
        c. any potential C++ identifier name that starts with a letter or underscore but may contain any number of letters, underscores, and/or digits (all letters may be upper or lower case).
               For example, your regular expression should match the following text strings:  “_”, “x2”, and “This_is_valid”  It should not match these text strings: “2days”, or “invalid_variable%”.
 
-              Answer: 
+              Answer: ^[_a-zA-Z]\w*$
 
        d. any date of the form:  mm/dd/yyyy, where mm and dd may be 1 or 2 digit numbers, but yyyy always contains 4 digits and the slashes are required.
            The mm field must be a value that corresponds to a valid month (1 through 12); however, your expression should allow for an optional leading zero, for example ‘05’.
@@ -24,7 +24,7 @@ Construct a regular expression that matches:
                     It should not match these dates: 1/32/2006, 13/13/1313, 1/0/2006, 11/3/04, 3/3/3000.
 
                       Month             Day                 Year
-              Answer: (0?[1-9]|1?[1-2]),(0?[1-9]|[]12]\d|3[01]),(19|20)\d\d
+              Answer: (0?[1-9]|1?[1-2]),(0?[1-9]|[12]\d|3[01]),(19|20)\d\d
 
 
        e. any word that contains each of the five vowels (a, e, i, o, and u) once and in alphabetic order.
@@ -36,25 +36,16 @@ Construct a regular expression that matches:
 
        The Perl script, wordsearch, is available on Easel.  If you prefer to type in the program yourself, the code is listed here:
                  #! /usr/bin/perl -w
-
                  $wordfile = $ARGV[0] || "/usr/share/dict/words";
-
                  open(DICT,$wordfile) || die "dictionary not found.";
-
                  print "Regular Expression? ";
-
                  $regexpr = <STDIN>;
-
                  chomp($regexpr);
-
                  while ($word=<DICT>)
-
                  {
-
                    chomp($word);
 
                    if ($word =~ /$regexpr/) {print "$word\n";}
-
                  }
 
                  close(DICT);
