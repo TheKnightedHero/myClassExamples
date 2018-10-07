@@ -49,3 +49,8 @@ Construct a regular expression that matches:
                  }
 
                  close(DICT);
+
+                  class of consonants [b-df-hj-np-tv-zB-DF-HJ-NP-TV-Z]
+
+                 Answer: ^[b-df-hj-np-tv-zB-DF-HJ-NP-TV-Z]*(a|A)[b-df-hj-np-tv-zB-DF-HJ-NP-TV-Z]*(e|E)[b-df-hj-np-tv-zB-DF-HJ-NP-TV-Z]*(i|I)[b-df-hj-np-tv-zB-DF-HJ-NP-TV-Z]*
+                                (o|O)[b-df-hj-np-tv-zB-DF-HJ-NP-TV-Z]*(u|U)[b-df-hj-np-tv-zB-DF-HJ-NP-TV-Z]*$
