@@ -5,7 +5,7 @@ Construct a regular expression that matches:
 
        a. at least one a followed by 2 to 5 b’s followed by a c.
 
-              Answer: ^a *c$
+              Answer: ^ab{2,5}*c$
 
        b. one or more of backslashes, ‘\’, followed by one or more plus signs, ‘+’.
 
