@@ -5,11 +5,11 @@ Construct a regular expression that matches:
 
        a. at least one a followed by 2 to 5 b’s followed by a c.
 
-              Answer:
+              Answer: ^a *c$
 
        b. one or more of backslashes, ‘\’, followed by one or more plus signs, ‘+’.
 
-              Answer:
+              Answer: ^\\+\++$
 
        c. any potential C++ identifier name that starts with a letter or underscore but may contain any number of letters, underscores, and/or digits (all letters may be upper or lower case).
               For example, your regular expression should match the following text strings:  “_”, “x2”, and “This_is_valid”  It should not match these text strings: “2days”, or “invalid_variable%”.
