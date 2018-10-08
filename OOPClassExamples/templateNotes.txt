@@ -10,3 +10,8 @@ template<typename T>    (if you have two types it is written teypename T, typena
 now instead of using double as the example, we use T
 
 The compiler uses templates to make functions
+
+
+typename could be replaced with class (ints and doubles would still work with it, if this wqqas the case)
+
+Before function name, we always put the classname, in this case a classname<T>   - classname of type T
