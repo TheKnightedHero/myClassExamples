@@ -1,0 +1,12 @@
+//Template notes
+
+template functions
+
+Example that will cover "all" cases
+we make a function template
+
+template<typename T>
+
+now instead of using double as the example, we use T
+
+The compiler uses templates to make functions
