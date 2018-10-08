@@ -1,11 +1,11 @@
-//Template notes
+//Template notes -lecture on 10/8/18
 
 template functions
 
 Example that will cover "all" cases
 we make a function template
 
-template<typename T>
+template<typename T>    (if you have two types it is written teypename T, typename T2, int x)  etc.
 
 now instead of using double as the example, we use T
 
