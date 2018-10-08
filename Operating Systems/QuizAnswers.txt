@@ -1,0 +1,6 @@
+QUIZ Answers
+
+
+1) \++\**
+2) \w+@\w+\.[a-zA-Z][a-zA-Z]+    OR   \w+@\w+\.[a-zA-Z]{2, }
+3) 
