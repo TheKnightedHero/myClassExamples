@@ -11,3 +11,29 @@ using 12 as example:
 3| T  T  T  T  T                                {1,2,3}
 4| T  T  T  T  T                                {1,2,3,4}
 5| T  T  T  T  T                                {1,2,3,4,6}
+
+
+//shutTheBox is along the same line as semiPerfect
+
+
+//scoring Go
+could be done breadth first, in sectoin depth first
+look at intersections that don't have a token on them
+use a queue?? to hold blnk columns while checking
+
+//Gearing Up
+same problem as scoring Go
+depth first search
+be able to check to see if gears lock up
+
+//list of the ahrdest ones
+contour tracing
+shut the box
+laser tag
+HI-Q //Baber will help solve
+pushing boxes
+
+
+
+
+ospf routing - dikstra's shortest path algortithm
