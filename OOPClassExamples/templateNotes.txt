@@ -15,3 +15,9 @@ The compiler uses templates to make functions
 typename could be replaced with class (ints and doubles would still work with it, if this wqqas the case)
 
 Before function name, we always put the classname, in this case a classname<T>   - classname of type T
+
+concrete classes you amke objects from
+
+class templates, the template is what is used to make the classes
+
+cclass template specialization - 
