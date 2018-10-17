@@ -1,0 +1,44 @@
+/*
+lecture on 10/17/18
+
+Singleton Design Pattern
+*/
+
+//header file
+class GameBoard
+{
+public
+//functionality
+static GameBoard& getInstance();
+GameBoard(GameBoard&) = delete //this says don't provide a copy constructor;
+private
+GameBoard();
+static GameBoard* instance;
+}
+
+
+//initialization file
+GameBoard* GameBoard::instance = NULL;
+
+GameBoard::GameBoard()
+{}
+
+GameBoard& GameBoard::getInstance()
+{
+if(instance == NULL)
+{
+  instance = new GameBoard();
+}
+  return *instance;
+}
+
+
+void main()
+{
+  GameBoard& gb = GameBoard::getInstance();
+
+}
+
+
+
+//Iterator Design Pattern
