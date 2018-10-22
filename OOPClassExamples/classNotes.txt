@@ -72,3 +72,14 @@ dynamic memory allocated will NOT be deleted
 
 10/22/18
 Watch lecture - was late
+Only public inheritance is allowed in C# and in Java
+
+difference between this pointer in C# vs C++
+    C# this is a reference to the object
+
+Procedural programming
+  start at main follow all the code through main, and then ends
+Event driven programming
+    waits for user to interact with program
+    outside entity interacting with your program is the Event
+    
