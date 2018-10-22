@@ -68,3 +68,7 @@ catch(exception e)
 
 when you throw an exception, local variables defined will be destroyed (destructor will be called)
 dynamic memory allocated will NOT be deleted
+
+
+10/22/18
+Watch lecture - was late
