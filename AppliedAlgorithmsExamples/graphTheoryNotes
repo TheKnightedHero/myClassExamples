@@ -7,3 +7,24 @@ Test case E was the slowest and removed!
 There's no letter O, skip over while still numbering
 Output needs to show the letters, convert integers back into letters
 */
+
+parent[]               value[]
+Parent[A] = nil        value[A] = inf
+Parent[B] = nil        value[B] = inf
+Parent[C] = nil        value[C] = inf
+Parent[D] = nil        value[D] = inf
+Parent[E] = nil        value[E] = inf
+Parent[F] = nil        value[F] = inf
+
+
+v{}                   T{}
+A
+B
+C
+D
+E
+F
+
+
+root = A    (This changes value[A] to 0)
+selected
