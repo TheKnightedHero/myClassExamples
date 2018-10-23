@@ -1,0 +1,9 @@
+//10/23/18
+//minimal spanning tree
+//jungle roads hint
+/*
+  Brief Hi-Q Hint:
+Test case E was the slowest and removed!
+There's no letter O, skip over while still numbering
+Output needs to show the letters, convert integers back into letters
+*/
