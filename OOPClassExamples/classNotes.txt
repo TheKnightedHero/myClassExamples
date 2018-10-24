@@ -98,3 +98,8 @@ in C# the difference between classes and structs:
 A property provides getters and setters for data members
     The getter is when its an rValue
     the setter is when it is an lValue
+
+C# does NOT provide a copy constructor
+    copying is not a normal concept in C#
+Don't rely on the finalizer
+Automatic garbage collection
