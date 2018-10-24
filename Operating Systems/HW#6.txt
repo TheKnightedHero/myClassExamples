@@ -74,4 +74,8 @@ Chapter 3 part 1 HW
     at one word every 100 nsec.  If each process runs for 100 msec (including the time to load the page table),
     what fraction of the CPU is devoted to loading the page tables?
 
+      2^32 address space
+      2^13 page size =   2^32/2^13  entries
+
+
     Answer:
