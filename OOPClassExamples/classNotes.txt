@@ -82,4 +82,10 @@ Procedural programming
 Event driven programming
     waits for user to interact with program
     outside entity interacting with your program is the Event
-    
+
+
+10/24/18 - C#
+access specifiers are used per declaration in a class
+Example:
+Dog d is a reference to a Dog
+if you do not explicitly inherit from a class, then you implicitly inherit from a class called object
