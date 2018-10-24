@@ -87,5 +87,14 @@ Event driven programming
 10/24/18 - C#
 access specifiers are used per declaration in a class
 Example:
-Dog d is a reference to a Dog
+    Dog d is a reference to a Dog
+
 if you do not explicitly inherit from a class, then you implicitly inherit from a class called object
+Everything inherits from object at some point
+All classes are reference types
+in C# the difference between classes and structs:
+    Structs - value types
+    Classes - are reference types
+A property provides getters and setters for data members
+    The getter is when its an rValue
+    the setter is when it is an lValue
