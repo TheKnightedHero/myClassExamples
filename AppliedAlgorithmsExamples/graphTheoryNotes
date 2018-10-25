@@ -32,3 +32,41 @@ selected
 /*
 using prim's algorithm is very similar to dikstra's shortest path algorithm
 */
+
+
+
+
+
+
+//Building the adjacency matrix
+2D array
+where array[A][B] is the path from A to B, value stored here is the line weight
+intialize all of them to infinity first
+read in values
+infinity is a keyword that can be used to represent infinity in the matrix
+you could also use max int (int max) to represent infinity
+
+
+linked list is more efficient if its a sparse graph
+
+
+/*
+  Dikstra's Algorithm
+
+  Single Source Algorithm
+    There's one place where you want a shortest path from start node to every other node
+DO NOT use negative weights in Dikstra's algorithm
+
+erg = smallest unit of work
+an erg is approx. the amount of work it takes for a fly to do one pushup
+*/
+
+very similar to prim's
+
+V = {A,B,C,D,E,F}  T = {}
+
+Start = A
+
+Selected =
+
+Parent[]                     Distance[]
