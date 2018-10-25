@@ -29,9 +29,6 @@ F
 root = A    (This changes value[A] to 0)
 selected
 
-
-
-
 /*
 using prim's algorithm is very similar to dikstra's shortest path algorithm
 */
