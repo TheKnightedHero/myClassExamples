@@ -1,0 +1,33 @@
+Caleb Herring
+HW#7
+
+1) A computer with a 32-bit address uses a two-level page table.
+    Virtual addresses are split into a 9-bit top-level page table field,
+    an 11-bit second-level page table field, and an offset.
+    How large are the pages and how many are there in the address space?
+
+      Answer:
+          Page size: 2^12 = 4KB
+          pages in address space: 2^9 * 2^11 = 2^20 pages == 1Mpages
+
+2) Suppose that a 32-bit virtual address is broken up into four fields, a, b, c, and d.
+    The first three are used for a three-level page table system.  The fourth field, d, is the offset.
+    Does the number of pages depend on the sizes of all four fields?  If not, which ones matter and which ones do not?
+
+
+3) A computer has 32-bit virtual addresses and 4-KB pages.
+    The program and data together fit in the lowest page (bytes 0-4095).
+    The stack fits in the highest page.  How many entries are needed in the page table if traditional (one-level) paging is used?
+    How many page table entries are needed for two-level paging, with 10 bits in the first two parts of the virtual address (offset is 12 bits)?
+
+4) A computer whose processes have 1024 pages in their address spaces keeps its page tables in memory.
+    The overhead required for reading a word from the page table is 5 nsec.
+    To reduce this overhead, the computer has a TLB, which holds 32 (virtual page, physical page frame) pairs, and can do a look up in 1 nsec.
+    What hit rate is needed to reduce the mean overhead to 2 nsec?
+
+      Answer:
+            
+
+5) A machine has 48-bit virtual addresses and 32-bit physical addresses.  Pages are 8KB.
+    How many entries are needed for a single-level linear page table?
+    If an inverted single-level page table is used instead, how many entries are needed?
