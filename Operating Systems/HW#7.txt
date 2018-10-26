@@ -26,7 +26,7 @@ HW#7
     What hit rate is needed to reduce the mean overhead to 2 nsec?
 
       Answer:
-            
+
 
 5) A machine has 48-bit virtual addresses and 32-bit physical addresses.  Pages are 8KB.
     How many entries are needed for a single-level linear page table?
