@@ -31,3 +31,9 @@ HW#7
 5) A machine has 48-bit virtual addresses and 32-bit physical addresses.  Pages are 8KB.
     How many entries are needed for a single-level linear page table?
     If an inverted single-level page table is used instead, how many entries are needed?
+
+        2^35 pages    2^13 page size
+        inverted is page frames - using physical address
+
+    Answer: 2^35 entries
+          INVERTED: 2^24 entries
