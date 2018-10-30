@@ -27,6 +27,7 @@ HW#7
 
             2^10 + 2^10 = 2^20
 
+
       Answer: one-level paging: 2^20 = 1M Pages
               two-level paging:
 
@@ -48,7 +49,11 @@ HW#7
     If an inverted single-level page table is used instead, how many entries are needed?
 
         2^35 pages    2^13 page size
+
         inverted is page frames using physical address
+        32-13 = 19
+
+        //2^24 entries
 
     Answer: 2^35 entries
-          INVERTED: 2^24 entries
+          INVERTED: 2^19 entries
