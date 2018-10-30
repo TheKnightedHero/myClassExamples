@@ -77,7 +77,7 @@ Chapter 3 part 1 HW
       2^32 address space
       2^13 page size =   2^32/2^13  entries
 
-      im stuck....
 
 
-    Answer:
+
+    Answer: 13/25 (52%)
