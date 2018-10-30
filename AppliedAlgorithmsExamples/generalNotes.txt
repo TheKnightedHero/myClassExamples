@@ -1,0 +1,27 @@
+//10/30/18
+Algorithms from Mcgraw Hill
+cormen book
+
+
+binary min-heap
+#include <queue>
+allows us to set up a priority Queue
+
+Heapsort: A minimalist's approach
+  like MERGESORT, it runs in O(n lg n)
+  Unlike MERGESORT, it sorts in place
+  Based off of a "heap", which has several uses
+  The word "heap" in context does not refer to memory management
+
+  A binary heap is a nearly complete binary tree
+      binary tree - a tree that has AT MOST two children
+      nearly complete - one or more nodes only have one child on left side
+  Implemented using an array A (or vector)
+  Two similar attributes
+    length[A] is the size(number of slots) in A
+    heap-size[A] is the number of elements in the Heapsort
+    thus, heap-size[A] <= length[A]
+  Simple functions to know node's parent, lchild, rchild
+    parent(i) = i/2
+    left(i) = 2i
+    right(i) = 2i + 1
