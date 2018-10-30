@@ -23,14 +23,24 @@ HW#7
     The stack fits in the highest page.  How many entries are needed in the page table if traditional (one-level) paging is used?
     How many page table entries are needed for two-level paging, with 10 bits in the first two parts of the virtual address (offset is 12 bits)?
 
-      Answer:
+            32- 12 = 20 2^20
+
+            2^10 + 2^10 = 2^20
+
+      Answer: one-level paging: 2^20 = 1M Pages
+              two-level paging:
 
 4) A computer whose processes have 1024 pages in their address spaces keeps its page tables in memory.
     The overhead required for reading a word from the page table is 5 nsec.
     To reduce this overhead, the computer has a TLB, which holds 32 (virtual page, physical page frame) pairs, and can do a look up in 1 nsec.
     What hit rate is needed to reduce the mean overhead to 2 nsec?
 
-      Answer:
+      1h + 5(1 − h)
+      1h + 5 - 5h
+      -4h + 5 = 2
+      -4h = -3
+      h = 3/4
+      Answer: 0.75
 
 
 5) A machine has 48-bit virtual addresses and 32-bit physical addresses.  Pages are 8KB.
