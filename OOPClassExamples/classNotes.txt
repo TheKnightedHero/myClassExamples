@@ -103,3 +103,14 @@ C# does NOT provide a copy constructor
     copying is not a normal concept in C#
 Don't rely on the finalizer
 Automatic garbage collection
+There is no key word virtual in Java/C#  - it is always dynamic/polymorphic
+
+
+10/31/18
+Mutable/immutable objects
+
+Mutable objects - objects that can change
+immutable objects - objects that can not change
+
+Java strings are immutable
+C++ strings are mutable
