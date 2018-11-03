@@ -29,7 +29,12 @@ HW#7
 
 
       Answer: one-level paging: 2^20 = 1M Pages
-              two-level paging:
+              two-level paging: 1k
+
+              /*
+                  I still do not fully grasp how to figure out the two-level paging problem of this question.
+                  Help would be nice.
+              */
 
 4) A computer whose processes have 1024 pages in their address spaces keeps its page tables in memory.
     The overhead required for reading a word from the page table is 5 nsec.
@@ -52,8 +57,6 @@ HW#7
 
         inverted is page frames using physical address
         32-13 = 19
-
-        //2^24 entries
 
     Answer: 2^35 entries
           INVERTED: 2^19 entries
