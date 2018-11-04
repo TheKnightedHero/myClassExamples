@@ -34,10 +34,6 @@ using prim's algorithm is very similar to dikstra's shortest path algorithm
 */
 
 
-
-
-
-
 //Building the adjacency matrix
 2D array
 where array[A][B] is the path from A to B, value stored here is the line weight
