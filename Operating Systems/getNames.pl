@@ -12,7 +12,6 @@ while ($line = <STDIN>)
 	# my @words = split(":", $line);
 	($username, $password, $UID, $GID, $actualName, @everythingElse) = split(":", $line);
 
-
 	if($GID >= 1000)
 	{
 		@namesArray = split(" ", $actualName);
