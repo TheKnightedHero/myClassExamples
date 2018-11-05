@@ -115,4 +115,38 @@ immutable objects - objects that can not change
 Java strings are immutable
 C++ strings are mutable
 
-11/2/18
+11/5/18
+Java was developed by Sun microsystems
+WORA - Write Once Run Anywhere
+.java -> Java C -> .class -> bytecode
+
+.class code is run by the JVM - Java Virtual Machine
+
+Java also takes care of memory management for you
+
+JVM is slow
+
+JRE - Java Run-time engine
+same thing as the JVM, the JVM is simply a more abstract term
+
+JDK - Java development Kit
+    This includes the libraries and a compiler
+the compiler is Java C
+
+intelliJ
+
+Why do we need an equals method in Java?
+    The double equals do not work if the pointers are pointing to different objects
+    It cant compare where references are pointing
+clone
+equals
+toString
+are the most important methods this semester
+
+Class<?>
+  Object and Class are classes in Java
+  Class has functionality
+    Class allows you to do reflection
+    Reflection allows inspection of Class without knowing the names of the
+
+RTTI - Run-Time Type Information
