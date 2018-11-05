@@ -1,0 +1,40 @@
+1. Some operating systems provide a system call, rename, to give a file a new name.
+    What is the difference between using this call to rename a file, and just copying the file to a new file with the new name,
+    followed by deleting the old one?
+
+2. A simple operating system only supports a single directory but allows that directory to have arbitrarily many files with arbitrarily long file names.
+Can something approximating a hierarchical file system be simulated?  How?
+
+3. Consider the directory tree of Fig. 4-8 (shown below).
+If /usr/jim is the working directory, what is the absolute path name for the file whose relative path name is  .. /ast/x?
+
+4. Some digital consumer devices need to store data, for example as files.
+Name a modern device that requires file storage and for which contiguous allocation would be a fine idea.
+
+5. Name one advantage of hard links over symbolic links and one advantage of symbolic links over hard links.
+
+6. The beginning of a free space bitmap looks like this after the disk partition is first formatted: 1000 0000 0000 0000 (the first block is used by the root directory).  The system always searches for free blocks starting at the lowest numbered block, so after writing file A, which uses 6 blocks, the bitmap looks like this: 1111 1110 0000 0000.  Show the bitmap after each of the following additional actions:
+
+        (a)     File B is written, using 5 blocks.
+
+        (b)     File A is deleted.
+
+        (c)     File C is written, using 8 blocks.
+
+        (d)     File B is deleted.
+
+7. The performance of a file system depends upon the cache hit rate (fraction of blocks found in the cache).
+If it takes 1 msec to satisfy a request from the cache, but 40 msec to satisfy a request if a disk read is needed,
+give a formula for the mean time required to satisfy a request if the hit rate is h.
+Plot this function for values of h varying from 0 to 1.0.
+
+8. A certain file system uses 4-KB disk blocks.
+The median file size is 1 KB.  If all files were exactly 1KB, what fraction of the disk space would be wasted?
+Do you think the wastage for a real file system will be higher than this number or lower than it?  Explain your answer.
+
+9. A UNIX file system has 4-KB blocks and 4-byte disk addresses.
+What is the maximum file size if i-nodes contain 10 direct entries, and one single, double, and triple indirect entry each?
+
+10. How many disk operations are needed to fetch the i-node for the file /usr/ast/courses/os/handout.t?
+Assume that the i-node for the root directory is in memory, but nothing else along the path is in memory.
+Also assume that all directories fit in one disk block.

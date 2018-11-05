@@ -1,18 +1,91 @@
 Caleb Herring
 HW#8
 
-1)
+1) If FIFO page replacement is used with four page frames and eight pages,
+    how many page faults will occur with the reference string 0172327103 if the four frames are initially empty?
+    Now repeat this problem for LRU.
+
+          0172327103
+    A:    0000333333
+    B:    -111111100
+    C:    --77777777
+    D:    ---2222222
+          FFFFF---F-
+    Queue: 7230
+
+    Answer:
+          FIFO: 6 page faults
+           LRU:
+
+2) Consider the page sequence in Figure 3-15(b) (shown below).
+    Suppose that the R bits for the pages B through A are 11011011, respectively.
+    Which page will second chance remove?
+
+    1 1 0 1 1 0 1 1
+    B C D E F G H A
+
+    Answer: Page D
+
+3) A small computer on a smart card has four page frames.
+    At the first clock tick, the R bits are 0111 (page 0 is 0, the rest are 1).
+    At subsequent clock ticks, the values are 1011, 1010, 1101, 0010, 1010, 1100, and 0001.
+    If the aging algorithm is used with an 8-bit counter, give the values of the four counters after the last tick.
+    Which page would be replaced? (The one with the smallest value)
+
+        Counter 0: 01101110
+        Counter 1: 01001001
+        Counter 2: 00110111
+        Counter 3: 10001011
 
     Answer:
 
-2)
-
-3)
-
 4)
 
-5)
 
-6)
+4. In the WSClock algorithm in the Figure 3-21(c) (shown below), the hand points to a page with R = 0.
+    If t = 400, will this page be removed?  What about if t = 1000?
 
-7)
+
+
+    Answer: if t = 40, no it will not be replaced.
+
+5)  A computer has four page frames.
+The time of loading, time of last access, and the R and M bits for each page are as shown below (the times are in clock ticks):
+
+
+
+                  Page     Loaded       Last Ref.            R          M
+
+                  0          126             280             1          0
+
+                  1          230             265             0          1
+
+                  2          140             270             0          0
+
+                  3          110             285             1          1
+
+
+
+        (a)    Which page will NRU replace?
+                Answer: page 2
+
+        (b)    Which page will FIFO replace?
+                Answer: page 3
+
+        (c)    Which page will LRU replace?
+                Answer: page 1
+
+        (d)    Which page will second chance replace?
+                Answer: page 2
+
+6) A computer provides each process with 65,536 bytes of address space divided into pages of 4096 bytes.
+    A particular program has a text size of 32,768 bytes, a data size of 16,386 bytes, and a stack size of 15,870 bytes.
+    Will this program fit in the address space? If the page size were 512 bytes, would it fit?
+    Remember that a page may not contain parts of two different segments.
+
+      Answer:
+
+7) A machine language instruction to load a 32-bit word into a register contains the 32-bit address of the word to be loaded.
+    What is the maximum number of page faults this instruction can cause?
+
+      Answer:
