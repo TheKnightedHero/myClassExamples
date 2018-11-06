@@ -13,9 +13,14 @@ HW#8
           FFFFF---F-
     Queue: 7230
 
+    A:    0172327103
+    B:    -017232710
+    C:    --01773271
+    D:    ---0111327
+    
     Answer:
           FIFO: 6 page faults
-           LRU:
+           LRU: 7 page faults
 
 2) Consider the page sequence in Figure 3-15(b) (shown below).
     Suppose that the R bits for the pages B through A are 11011011, respectively.
@@ -32,22 +37,19 @@ HW#8
     If the aging algorithm is used with an 8-bit counter, give the values of the four counters after the last tick.
     Which page would be replaced? (The one with the smallest value)
 
-        Counter 0: 01101110
-        Counter 1: 01001001
-        Counter 2: 00110111
-        Counter 3: 10001011
+        Counter 0: 01101110   //110      //page 1
+        Counter 1: 01001001   //73       //page 2
+        Counter 2: 00110111   //55       //page 3
+        Counter 3: 10001011   //139      //page 4
 
-    Answer:
+    Answer: page 3
 
-4)
-
-
-4. In the WSClock algorithm in the Figure 3-21(c) (shown below), the hand points to a page with R = 0.
+4) In the WSClock algorithm in the Figure 3-21(c) (shown below), the hand points to a page with R = 0.
     If t = 400, will this page be removed?  What about if t = 1000?
 
-
-
-    Answer: if t = 40, no it will not be replaced.
+    Answer:
+          if t = 400, yes it will be removed
+          if t = 1000, no it will not be removed
 
 5)  A computer has four page frames.
 The time of loading, time of last access, and the R and M bits for each page are as shown below (the times are in clock ticks):
@@ -84,8 +86,11 @@ The time of loading, time of last access, and the R and M bits for each page are
     Remember that a page may not contain parts of two different segments.
 
       Answer:
+            No, this particular program will not fit into  the address space. It needs 17 4096-byte pages.
+            with a 512 byte page, it will fit.
 
 7) A machine language instruction to load a 32-bit word into a register contains the 32-bit address of the word to be loaded.
     What is the maximum number of page faults this instruction can cause?
 
       Answer:
+              The maximum number pf page faults that could occur is 4 page faults
