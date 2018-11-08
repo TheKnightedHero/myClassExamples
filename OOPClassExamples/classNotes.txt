@@ -149,3 +149,12 @@ Class<?>
     Reflection allows inspection of Class without knowing the names of the
 
 RTTI - Run-Time Type Information
+
+11/7/18
+Java can only have single inheritance
+An abstract class with pure virtual methods was called an interface in C++
+  In Java, we have the same concept, called Java interface
+  You do not have to type public on the front
+  not allowed to implement a function while an interface
+  can extend only one class, but implement as many interfaces
+Interfaces typically have an i on the front for the names
