@@ -1,0 +1,59 @@
+Caleb Herring
+HW#10
+
+2. Consider a magnetic disk consisting of 16 heads and 400 cylinders.
+This disk is divided into four 100-cyliner zones with the cylinders in different zones containing 160, 200, 240, and 280 sectors, respectively.
+Assume that each sector contains 512 bytes, seek time between adjacent cylinders is 1 msec, and the disk rotates at 7200 revolutions per minute.
+Calculate the total disk capacity.
+
+Answer:
+
+
+
+3. Disk requests come in to the disk driver for cylinders 10, 22, 20, 2, 40, 6, and 38, in that order.
+A seek takes 6 msec per cylinder moved.  How much seek time is needed for
+
+
+    (a)    First-come, first served.
+
+    (b)    Closest cylinder next.
+
+    (c)    Elevator algorithm (initially moving upward).
+
+    In all cases, the arm is initially at cylinder 20.
+
+
+4. The clock interrupt handler on a certain computer requires 2 msec (including process switching overhead) per clock tick.
+The clock runs at 60 Hz.  What fraction of the CPU is devoted to the clock?
+
+
+
+5. A computer uses a programmable clock in square-wave mode.
+If a 500 MHz crystal is used, what should be the value of the holding register to achieve a clock resolution of
+
+            (a) a millisecond (a clock tick once every millisecond)?
+
+            (b) 100 microseconds?
+
+
+
+6. The designers of a computer system expected that the mouse could be moved at a maximum rate of 20 cm/sec.
+If a mickey is 0.1 mm and each mouse message is 3 bytes, what is the maximum data rate of the mouse assuming that each mickey is reported separately?
+
+
+
+
+
+7. The primary additive colors are red, green, and blue, which means that any color can be constructed from a linear superposition of these colors.
+Is it possible that someone could have a color photograph that cannot be represented using full 24-bit color?
+
+
+
+8. Assuming that it takes 2 nsec to copy  a byte,
+how much time does it take to completely rewrite the screen of an 80 character x 25 line text mode memory-mapped screen?
+What about a 1024 x 768 pixel graphics screen with 24-bit color?
+
+
+
+9. A thin-client terminal is used to display a Web page containing an animated cartoon of size 400 pixels x 160 pixels running at 10 frames/sec.
+What fraction of a 100-Mbps Fast Ethernet is consumed by displaying the cartoon?
