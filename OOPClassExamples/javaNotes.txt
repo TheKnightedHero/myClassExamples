@@ -1,0 +1,8 @@
+3 ways to 
+    1)
+    2)
+    3)
+
+A lambda is shorthand syntax for an anonymous function
+
+ternary operator - shorthand syntax for if/else statement
