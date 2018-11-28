@@ -9,4 +9,9 @@ Dependency Injection
     -
 
 Version of Control
+    - The framework of the software already exists, so instead of downloading the library, 
+        you download the structure for which you have to write code to play well with it
     -
+Ninject
+    - C# ninja injection framework
+    - 
