@@ -2,3 +2,11 @@ LINQ - Language Integrated Query
     -These are not lambdas
     -The All function is the LINQ Query
     -
+
+Dependency Injection && Version of Control
+
+Dependency Injection
+    -
+
+Version of Control
+    -
