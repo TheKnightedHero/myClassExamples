@@ -21,24 +21,29 @@ Ninject
 SOLID Design Principles
     -SRP
         Single Responsibility Principle
-            A class should have one, and only one, reason to change
-
+            -A class should have one, and only one, reason to change
     -OCP
         Open/Closed Principle  
-            A class/module should be open for extension, but closed from modification
+            -A class/module should be open for extension, but closed from modification
+            -We want our classes and interfaces to stay as stable as possible
     -LSP
         Liskov Substitution Principle
-            derived classes must be usable form the base class interface, without the need for the user to know the different
+            -derived classes must be usable form the base class interface, without the need for the user to know the different
+            -when you are creating data types to represent something, avoid trying to represent everything in the real world
     -ISP
-        I
+        Interface Segregation Principle
+            -Don't depend on what you don't user
+            -Make interfaces as small and as concise as possible
+            -interfaces should belong to clients not the libraries
     -DIP
-        D
+        Dependency Inversion Principle
+            -
 
 Symptoms of bad code
     Rigidity
         -when you change something in one place, and things break in other parts of code you couldn't foresee
     Fragility
-        -parts of the code that have no relationship to what you change, breaks
+        -parts of the code that have no relationship to what you change, breaks.
     NonReusability
         -Code is coupled to other parts of code
         -Dependency
