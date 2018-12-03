@@ -37,7 +37,10 @@ SOLID Design Principles
             -interfaces should belong to clients not the libraries
     -DIP
         Dependency Inversion Principle
-            -
+            -High level modulesshould not depend on low level modules
+            -Both should depend on abstractions
+            -Abstractions should not depend on details
+            -Details should depend on abstractions
 
 Symptoms of bad code
     Rigidity
@@ -51,3 +54,11 @@ Encapsulation
 Inheritance
 Polymorphism
 
+3 categories of Design Patterns
+    -Creational
+        -Singleton
+        -Builder
+    -Structural
+        -
+    -Behavioral
+        -
