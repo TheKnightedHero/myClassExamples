@@ -6,8 +6,14 @@ This disk is divided into four 100-cyliner zones with the cylinders in different
 Assume that each sector contains 512 bytes, seek time between adjacent cylinders is 1 msec, and the disk rotates at 7200 revolutions per minute.
 Calculate the total disk capacity.
 
-Answer:
+zone 1: 16 × 100 × 160 × 512 = 131072000 bytes
+zone 2: 16 × 100 × 200 × 512 = 163840000 bytes
+zone 3: 16 × 100 × 240 × 512 = 196608000 bytes
+zone 4: 16 × 100 × 280 × 512 = 229376000 bytes
 
+131072000 + 163840000 + 196608000 + 229376000 = 720896000
+
+Answer: 720,896,000 bytes
 
 
 3. Disk requests come in to the disk driver for cylinders 10, 22, 20, 2, 40, 6, and 38, in that order.
@@ -16,9 +22,21 @@ A seek takes 6 msec per cylinder moved.  How much seek time is needed for
 
     (a)    First-come, first served.
 
+            10 + 12 + 2 + 38 + 34 + 32 = 146 * 6 = 876
+
+          Answer: 876 msec
+
     (b)    Closest cylinder next.
 
+          0 + 2 + 12 + 4 + 4 + 36 +2 = 60 * 6 = 360
+
+          Answer: 360 msec
+
     (c)    Elevator algorithm (initially moving upward).
+
+          0 + 2 + 16 + 2 + 30 + 4 + 4 = 58 * 6 =
+
+          Answer: 348 msec
 
     In all cases, the arm is initially at cylinder 20.
 
@@ -26,34 +44,55 @@ A seek takes 6 msec per cylinder moved.  How much seek time is needed for
 4. The clock interrupt handler on a certain computer requires 2 msec (including process switching overhead) per clock tick.
 The clock runs at 60 Hz.  What fraction of the CPU is devoted to the clock?
 
+60 * 2 = 120 / 100
 
+Answer: 12%
 
 5. A computer uses a programmable clock in square-wave mode.
 If a 500 MHz crystal is used, what should be the value of the holding register to achieve a clock resolution of
 
             (a) a millisecond (a clock tick once every millisecond)?
 
+            answer: 500,000
+
             (b) 100 microseconds?
+
+            answer: 50,000
 
 
 
 6. The designers of a computer system expected that the mouse could be moved at a maximum rate of 20 cm/sec.
 If a mickey is 0.1 mm and each mouse message is 3 bytes, what is the maximum data rate of the mouse assuming that each mickey is reported separately?
 
+20 * 10 = 200mm = 2000 mickey
+2000 * 3 = 6000
 
-
+Answer: 6000 bytes/sec
 
 
 7. The primary additive colors are red, green, and blue, which means that any color can be constructed from a linear superposition of these colors.
 Is it possible that someone could have a color photograph that cannot be represented using full 24-bit color?
 
+Answer: Yes it is possible, that there could be a photograph that cannot be represented
 
-
-8. Assuming that it takes 2 nsec to copy  a byte,
+8. Assuming that it takes 2 nsec to copy a byte,
 how much time does it take to completely rewrite the screen of an 80 character x 25 line text mode memory-mapped screen?
 What about a 1024 x 768 pixel graphics screen with 24-bit color?
 
+2 * 80 * 25 = 4000 bytes
+4000 * 2 nsec = 8,000
 
+(3 is now used because it is a pixel graphics screen)
+1024 * 768 * 3 = 2,359,296 bytes
+2,359,296 * 2 = 4,718,538
+
+Answer:
+for 80 X 25: 8000 nsec
+for 1024 X 768: 4,718,538 nsec
 
 9. A thin-client terminal is used to display a Web page containing an animated cartoon of size 400 pixels x 160 pixels running at 10 frames/sec.
 What fraction of a 100-Mbps Fast Ethernet is consumed by displaying the cartoon?
+
+400 × 160 × 3 = 192,000 bytes  * 10 = 1,920,000 bytes/sec = 15,360,000 bits/sec
+
+Answer: about 15%
